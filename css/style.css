@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(44, 114, 219);
+    font-family: Sofia;
 }
 
 .container {
@@ -74,7 +75,7 @@ body {
 }
 
 .liste h2 {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -82,22 +83,30 @@ ul {
     list-style: none;
 }
 
-.spunta-verde {
+li {
+    margin: 15px 0;
+}
+
+.spunta {
     font-size: 15px;
-    border: solid 1px #5fbda5;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
     padding: 5px;
     border-radius: 50%;
-    color: #5fbda5;
+    text-align: center;
     display: inline-block;
+    line-height: 15px;
+}
+
+.spunta-verde {
+    border: solid 1px #5fbda5;
+    color: #5fbda5;
 }
 
 .spunta-rossa {
-    font-size: 15px;
     border: solid 1px #ea5c56;
-    padding: 5px;
-    border-radius: 50%;
     color: #ea5c56;
-    display: inline-block;
 }
 
 .prima-lista p {
@@ -106,42 +115,38 @@ ul {
 }
 
 
-.add-E {
-    background-color: #46acf1;
+.add {
+
     padding: 5px 10px;
     display: inline;
     vertical-align: middle;
     border-radius: 10px;
-    color: aliceblue;
     margin: 0 5px 0 5px;
+    color: aliceblue;
+}
+
+
+.add-E {
+    background-color: #46acf1;
+
 }
 
 .add-Q {
     background-color: #9b71e4;
-    padding: 5px 10px;
-    display: inline;
-    vertical-align: middle;
-    border-radius: 10px;
-    margin: 0 5px 0 5px;
-    color: aliceblue;
 }
 
 .add-R {
     background-color: #63bfa9;
-    padding: 5px 10px;
-    display: inline;
-    vertical-align: middle;
-    border-radius: 10px;
-    margin: 0 5px 0 5px;
-    color: aliceblue;
 }
 
 .add-M {
     background-color: #f19d32;
-    padding: 5px 10px;
-    display: inline;
-    vertical-align: middle;
-    border-radius: 10px;
-    margin: 0 5px 0 5px;
-    color: aliceblue;
+}
+
+.add-W {
+    background-color: #d863a1;
+}
+
+.add-S {
+    background-color: #afc825;
 }
