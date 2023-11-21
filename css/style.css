@@ -47,7 +47,7 @@ body {
 
 }
 
-.add-T {
+.add-blue {
     background-color: #46acf1;
     padding: 10px;
     display: inline;
@@ -59,7 +59,7 @@ body {
 
 
 
-.add-S {
+.add-white {
     background-color: aliceblue;
     padding: 10px;
     display: inline;
@@ -91,6 +91,15 @@ ul {
     display: inline-block;
 }
 
+.spunta-rossa {
+    font-size: 15px;
+    border: solid 1px #ea5c56;
+    padding: 5px;
+    border-radius: 50%;
+    color: #ea5c56;
+    display: inline-block;
+}
+
 .prima-lista p {
     display: inline-block;
     font-size: 25px;
@@ -104,5 +113,35 @@ ul {
     vertical-align: middle;
     border-radius: 10px;
     color: aliceblue;
-    margin: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
+}
+
+.add-Q {
+    background-color: #9b71e4;
+    padding: 5px 10px;
+    display: inline;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin: 0 5px 0 5px;
+    color: aliceblue;
+}
+
+.add-R {
+    background-color: #63bfa9;
+    padding: 5px 10px;
+    display: inline;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin: 0 5px 0 5px;
+    color: aliceblue;
+}
+
+.add-M {
+    background-color: #f19d32;
+    padding: 5px 10px;
+    display: inline;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin: 0 5px 0 5px;
+    color: aliceblue;
 }
