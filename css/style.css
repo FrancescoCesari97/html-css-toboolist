@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(44, 114, 219);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    line-height: 90px;
+}
+
+.header h1 {
+    display: inline;
+    vertical-align: middle;
+}
+
+
+.logo {
+    vertical-align: middle;
+}
