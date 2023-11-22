@@ -18,26 +18,25 @@ body {
     width: 100%;
     height: 100px;
     background-color: aliceblue;
+    margin-bottom: 50px;
+    /* line-height: 90px; */
+}
+
+.header h1, .logo  {
+    display: inline;
+    vertical-align: middle;
     line-height: 90px;
 }
 
-.header h1 {
-    display: inline;
-    vertical-align: middle;
-}
 
-
-.logo {
-    vertical-align: middle;
-}
 
 .riquadro-centrale {
     width: 100%;
-    height: 800px;
+    height: auto;
     background-color: aliceblue;
     margin: auto;
     border-radius: 20px;
-    margin-top: 50px;
+    padding-bottom: 20px;
 
 }
 
@@ -45,7 +44,7 @@ body {
     height: 70px;
     border-bottom: solid 2px rgba(0, 0, 0, 0.27);
     line-height: 70px;
-
+    
 }
 
 .add-blue {
@@ -56,6 +55,7 @@ body {
     border-radius: 5px;
     color: aliceblue;
     margin: 0 10px 0 60px;
+    cursor: pointer;
 }
 
 
@@ -68,6 +68,7 @@ body {
     border-radius: 5px;
     color: rgb(182, 186, 190);
     border: solid 1px rgb(153, 153, 153);
+    cursor: pointer;
 }
 
 .liste {
@@ -84,7 +85,7 @@ ul {
 }
 
 li {
-    margin: 15px 0;
+    line-height: 53px;
 }
 
 .spunta {
@@ -97,15 +98,16 @@ li {
     text-align: center;
     display: inline-block;
     line-height: 15px;
+    cursor: pointer;
+    border: solid 1px currentColor;
+
 }
 
 .spunta-verde {
-    border: solid 1px #5fbda5;
     color: #5fbda5;
 }
 
 .spunta-rossa {
-    border: solid 1px #ea5c56;
     color: #ea5c56;
 }
 
@@ -123,6 +125,7 @@ li {
     border-radius: 10px;
     margin: 0 5px 0 5px;
     color: aliceblue;
+    cursor: pointer;
 }
 
 
